@@ -1,5 +1,5 @@
 {
-  "name": "Vue-dataAc-server",
+  "name": "vue-dataac-server",
   "version": "1.0.0",
   "description": "Vue-dataAc 后台服务 egg + mongodb",
   "private": true,
