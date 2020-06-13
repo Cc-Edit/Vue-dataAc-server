@@ -2,12 +2,11 @@
 
 const Controller = require('egg').Controller;
 
-class HomeController extends Controller {
+class PushController extends Controller {
   async index() {
     const { ctx } = this;
     ctx.body = 'hi, egg';
-    ctx.body = ctx.model.User.find({});
   }
 }
 
-module.exports = HomeController;
+module.exports = PushController;
