@@ -23,6 +23,15 @@ module.exports = appInfo => {
     options: {},
     // plugins: [createdPlugin, [updatedPlugin, pluginOptions]],
   }
+  config.cors = {
+    origin: '*',
+    allowMethods: 'GET,HEAD,PUT,POST,OPTIONS'
+  };
+  config.security = {
+    csrf: {
+      enable: false,
+    }
+  };
   // add your user config here
   const userConfig = {
     // myAppName: 'egg',
