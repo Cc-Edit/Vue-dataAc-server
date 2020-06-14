@@ -4,7 +4,8 @@ Vue-dataAc 后台服务 egg + mongodb
 
 ## QuickStart
 
-<!-- add docs here for user -->
+基于egg + mongodb 搭建日志分析系统
+
 
 see [egg docs][egg] for more detail.
 
