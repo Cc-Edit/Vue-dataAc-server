@@ -25,7 +25,7 @@
     "node": ">=10.0.0"
   },
   "scripts": {
-    "start": "egg-scripts start --daemon --title=egg-server-Vue-dataAc-server",
+    "start": "egg-scripts start --port=7007 --daemon --env=prod --title=egg-server-Vue-dataAc-server",
     "stop": "egg-scripts stop --title=egg-server-Vue-dataAc-server",
     "dev": "egg-bin dev",
     "debug": "egg-bin debug",
