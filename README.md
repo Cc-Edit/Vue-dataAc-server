@@ -29,5 +29,9 @@ $ npm stop
 - Use `npm test` to run unit test.
 - Use `npm run autod` to auto detect dependencies upgrade, see [autod](https://www.npmjs.com/package/autod) for more detail.
 
+### mongoDb
+0. sudo systemctl start mongod
+1. sudo systemctl stop mongod
+2. sudo systemctl daemon-reload
 
-[egg]: https://eggjs.org
+    https://mongodb.net.cn/manual/tutorial/install-mongodb-on-red-hat/
