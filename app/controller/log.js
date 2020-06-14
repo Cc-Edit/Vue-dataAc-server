@@ -15,7 +15,6 @@ class LogController extends Controller {
     let selOption = {
       uuid: uuid
     };
-
     if(type){
       selOption.type = type;
     }
