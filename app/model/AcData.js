@@ -6,6 +6,7 @@ module.exports = app => {
     uuid: { type: String  },
     ip: { type: String  },
     referer: { type: String  },
+    type: { type: String  },
     updated: { type: Number },
     token: { type: String  },
     userAgent: { type: String  },

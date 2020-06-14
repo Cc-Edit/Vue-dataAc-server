@@ -17,10 +17,12 @@ class PushController extends Controller {
     const { AcData } = ctx.model;
     for (let i = 0; i < body.length; i++){
       let {t, uuid, acData} = body[i];
+      let { type } = acData
       const acDataIns = new AcData({
         uuid: uuid,
         ip: ip,
         referer: referer,
+        type: type,
         updated: new Date().getTime(),
         token: t,
         userAgent: userAgent
