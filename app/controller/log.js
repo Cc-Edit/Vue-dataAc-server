@@ -20,7 +20,7 @@ class LogController extends Controller {
     }
 
     const { AcData } = ctx.model;
-    let result = await AcData.find(selOption).limit(100);
+    let result = await AcData.find(selOption).limit(10000);
 
     ctx.body = { isOk:true, msg:"获取成功" , data: result};
   }
